@@ -22,7 +22,7 @@ async function bootstrap() {
 		origin: [
 			'http://localhost:3001',
 			'https://vodo-plom-client.onrender.com',
-			'https://vodo-plom-client.vercel.app/',
+			'https://vodo-plom-client.vercel.app',
 		],
 	});
 
