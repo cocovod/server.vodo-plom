@@ -19,11 +19,11 @@ async function bootstrap() {
 
 	app.enableCors({
 		credentials: true,
-		origin: ['http://localhost:3001', 'https://vodo-plom-client.onrender.com'],
+		origin: ['https://vodo-plom-client.onrender.com'],
 	});
 
 	const config = new DocumentBuilder()
-		.setTitle('Аква термикс')
+		.setTitle('Водополимер')
 		.setDescription('api documentation')
 		.setVersion('1.0')
 		.addTag('api')
