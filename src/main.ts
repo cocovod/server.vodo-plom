@@ -16,7 +16,7 @@ async function bootstrap() {
 				httpOnly: true,
 				secure: true,
 				sameSite: 'none',
-				domain: 'https://client-vodo-plom.onrender.com',
+				domain: '.onrender.com',
 			},
 		}),
 	);
