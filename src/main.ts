@@ -19,11 +19,7 @@ async function bootstrap() {
 
 	app.enableCors({
 		credentials: true,
-		origin: [
-			'http://localhost:3001',
-			'https://vodo-plom-client.onrender.com',
-			'https://vodo-plom-client.vercel.app',
-		],
+		origin: ['http://localhost:3001', 'https://client.vodo-plom.onrender.com'],
 	});
 
 	const config = new DocumentBuilder()
