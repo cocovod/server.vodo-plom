@@ -12,6 +12,10 @@ async function bootstrap() {
 			secret: 'keyword',
 			resave: false,
 			saveUninitialized: false,
+			cookie: {
+				sameSite: 'none',
+				domain: '.render.com',
+			},
 		}),
 	);
 	app.use(passport.initialize());
@@ -19,7 +23,7 @@ async function bootstrap() {
 
 	app.enableCors({
 		credentials: true,
-		origin: ['http://localhost:3001', 'https://client.vodo-plom.onrender.com'],
+		origin: ['http://localhost:3001', 'https://client-vodo-plom.onrender.com'],
 	});
 
 	const config = new DocumentBuilder()
