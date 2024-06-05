@@ -14,7 +14,7 @@ async function bootstrap() {
 			saveUninitialized: false,
 			cookie: {
 				sameSite: 'none',
-				domain: '.render.com',
+				domain: '.onrender.com',
 			},
 		}),
 	);
