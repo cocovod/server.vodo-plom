@@ -14,7 +14,7 @@ async function bootstrap() {
 			saveUninitialized: false,
 			cookie: {
 				sameSite: 'none',
-				domain: '.onrender.com',
+				domain: 'client-vodo-plom.onrender.com',
 			},
 		}),
 	);
