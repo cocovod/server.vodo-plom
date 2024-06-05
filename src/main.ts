@@ -13,8 +13,10 @@ async function bootstrap() {
 			resave: false,
 			saveUninitialized: false,
 			cookie: {
+				httpOnly: true,
+				secure: true,
 				sameSite: 'none',
-				domain: 'client-vodo-plom.onrender.com',
+				domain: 'https://client-vodo-plom.onrender.com',
 			},
 		}),
 	);
